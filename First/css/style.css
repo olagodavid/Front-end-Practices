@@ -27,7 +27,9 @@ transition : background 0.5s ease-in-out, padding 0.5s ease-in-out;
 .top-nav-collapse {
 padding : 0;
 }
-#loader-wrapper .logo {
+
+/*pre-loader*/
+/*#loader-wrapper .logo {
 left : 48.7%;
 position : absolute;
 top : 48%;
@@ -93,7 +95,9 @@ transform : rotate(0deg);
 100% {
 transform : rotate(360deg);
 }
-}
+}*/
+/*end of pre-loader*/
+
 #nav_menu ul {
 float : right;
 list-style : none outside none;
@@ -112,4 +116,111 @@ padding : 25px 14px;
 text-decoration : none;
 text-transform : capitalize;
 transition : all 0.4s 0s ease;
+}
+
+#nav_menu ul li {
+float : left;
+padding : 0;
+position : relative;
+}
+#nav_menu ul li a:hover {
+transition : all 0.4s 0s ease;
+background : #0078BF;
+}
+#nav_menu ul ul {
+background : none 0 0 repeat scroll #0078bf;
+display : none;
+left : 0;
+padding : 0;
+position : absolute;
+top : 100%;
+z-index : 9999;
+padding : 10px;
+}
+#nav_menu ul ul li {
+float : none;
+width : 200px;
+}
+#nav_menu ul ul a {
+line-height : 120%;
+padding : 10px 29px;
+}
+#nav_menu ul ul li a:hover {
+transition : all 0.4s 0s ease;
+background : #333333;
+}
+#nav_menu ul ul ul {
+top : 0;
+left : 100%;
+}
+#nav_menu ul li:hover > ul {
+display : block;
+}
+#nav_menu ul li a i {
+margin-left : 6px;
+}
+#src_sec {
+background-image : url("../img/slide_img.jpg");
+background-position : center center;
+background-size : cover;
+min-height : 500px;
+}
+#abt_sec {
+padding : 70px 0;
+}
+.happy_use {
+float : right;
+font-family : open sans;
+line-height : 6px;
+text-align : center;
+margin-top : 10px;
+}
+.happy_use > h2 {
+color : #2c3e50;
+font-size : 17px;
+font-weight : 600;
+margin : 0;
+}
+.happy_use > p {
+font-size : 16px;
+margin : 0;
+}
+.lft_hd img {
+float : left;
+margin-right : 30px;
+margin-top : 19px;
+width : 76px;
+}
+#pricing_sec {
+padding : 70px 0;
+}
+.title_sec {
+margin : 0 auto;
+padding : 0 0 25px 0;
+text-align : center;
+}
+.title_sec h2 {
+color : #606060;
+font-size : 12px;
+text-transform : uppercase;
+letter-spacing : 1px;
+}
+.abt {
+margin : 0 auto;
+text-align : center;
+}
+#skill_sec {
+padding-top : 30px;
+}
+.skills-wrap .container {
+padding : 70px 0;
+}
+.progress {
+height : 35px;
+line-height : 35px;
+margin-bottom : 45px;
+background : #F0F0F0;
+border-radius : 0;
+box-shadow : none;
+list-style : none;
 }
