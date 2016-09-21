@@ -628,3 +628,90 @@ text-transform : capitalize;
 .lts_pst a:hover {
 border-bottom : 1px solid #00AFF0;
 }
+
+.sngl_pricing ul {
+border : #ebebeb solid 5px;
+margin : 0;
+padding : 0;transition: all 1s ease 0s;
+-moz-transition: all 1s ease 0s;
+-webkit-transition: all 1s ease 0s
+}
+.sngl_pricing ul li {
+color : #666666;
+font-family : lato;
+font-size : 14px;
+list-style : none outside none;
+text-transform : capitalize;
+border-top : 1px solid #EBEBEB;
+padding : 10px 0;
+text-align : center;
+}
+.sngl_pricing ul li:first-child {
+border-top : 0;
+}
+.sngl_pricing {
+text-align : center;
+border : #ebebeb solid 5px;
+}
+.sngl_pricing:hover {
+border : #00AFF0 solid 5px;transition: all 1s ease 0s;
+-moz-transition: all 1s ease 0s;
+-webkit-transition: all 1s ease 0s
+}
+.sngl_pricing:hover.sngl_pricing h3 {
+background : none 0 0 repeat scroll #00AFF0;transition: all 1s ease 0s;
+-moz-transition: all 1s ease 0s;
+-webkit-transition: all 1s ease 0s
+}
+.sngl_pricing > h2 {
+color : #fff;
+font-size : 18px;
+margin : 0;
+padding : 30px;
+text-transform : uppercase;
+}
+.title_bg_1 {
+background-image : url("../img/basic.jpg");
+background-position : center center;
+background-repeat : no-repeat;
+background-size : 100% 100%;
+}
+.title_bg_2 {
+background-image : url("../img/standar.jpg");
+background-position : center center;
+background-repeat : no-repeat;
+background-size : 100% 100%;
+}
+.title_bg_3 {
+background-image : url("../img/extended.jpg");
+background-position : center center;
+background-repeat : no-repeat;
+background-size : 100% 100%;
+}
+.sngl_pricing > h3 {
+background : none 0 0 repeat scroll #ebebeb;
+color : #515050;
+font-size : 48px;
+margin : 0;
+padding : 20px 0;
+}
+.currency {
+font-size : 24px;
+position : relative;
+top : -18px;
+}
+.monuth {
+font-size : 24px;
+text-transform : none;
+}
+.btn.pricing_btn {
+background : none 0 0 repeat scroll #00aff0;
+border : #666666 solid 1px;
+color : #fff;
+text-transform : uppercase;
+padding : 10px 30px;
+}
+.sngl_pricing ul {
+margin : 0;
+padding : 55px 0;
+}
