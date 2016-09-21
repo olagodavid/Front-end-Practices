@@ -224,3 +224,80 @@ border-radius : 0;
 box-shadow : none;
 list-style : none;
 }
+
+.progress-bar {
+font-weight : 600;
+line-height : 35px;
+padding-left : 20px;
+text-align : left;
+}
+.progress-bar1 .progress-bar {
+background : #00AFF0;
+}
+#lts_sec {
+padding-top : 30px;
+}
+.all_brouse_btn {
+border : #666666 solid 1px;
+color : #666666;
+font-size : 12px;
+text-transform : uppercase;
+padding : 15px 20px;
+text-align : center;
+background : #fff;
+}
+.post_btn {
+width : 100%;
+display : inline-block;
+margin : 0 auto;
+text-align : center;
+padding-top : 65px;
+}
+.post_btn a {
+position : relative;
+display : inline-block;
+margin : 15px 25px;
+outline : none;
+color : #fff;
+text-decoration : none;
+text-transform : uppercase;
+letter-spacing : 1px;
+font-weight : 400;
+text-shadow : 0 0 1px rgba(255, 255, 255, 0.3);
+font-size : 1.35em;
+}
+.hover_effect_btn {
+position : relative;
+z-index : 1;
+}
+.hover_effect_btn a {
+overflow : hidden;
+margin : 0 15px;
+}
+.hover_effect_btn a span {
+font-size : 12px;
+font-family : lato;
+background : none 0 0 repeat scroll #fff;
+border : #666666 solid 1px;
+border-radius : 6px;
+color : #666666;
+display : block;
+padding : 15px 20px;
+transition : transform 0.3s;
+}
+.hover_effect_btn a::before {
+background : none 0 0 repeat scroll #00AFF0;
+color : #fff;
+height : 100%;
+left : 0;
+padding : 15px 20px;
+position : absolute;
+top : 0;
+transition : transform 0.3s 0s ease;
+width : 100%;
+z-index : -1;
+font-size : 12px;
+font-family : lato;
+border : #666666 solid 1px;
+border-radius : 6px;
+}
