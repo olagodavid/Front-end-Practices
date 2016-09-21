@@ -404,3 +404,84 @@ height : 6px;
 text-indent : 0;
 width : 25px;
 }
+
+.carousel-indicators .active {
+width : 25px;
+height : 7px;
+background-color : #00AFF0;
+}
+#counting_sec {
+background : none 0 0 repeat scroll #f0f0f0;
+padding : 90px 0;
+}
+.counting_sl h2 {
+color : #515050;
+font-size : 48px;
+}
+.counting_sl h4 {
+font-size : 18px;
+color : #515050;
+text-transform : uppercase;
+font-weight : 300;
+}
+.counting_sl {
+text-align : center;
+}
+.counting_sl i {
+color : #515050;
+float : left;
+font-size : 35px;
+margin-top : 10px;
+}
+#pr_sec {
+padding : 70px 0;
+}
+.service {
+
+transition: all 1s ease 0s;
+-moz-transition: all 1s ease 0s;
+-webkit-transition: all 1s ease 0s;border :1px solid #eeeeee;
+cursor : pointer;
+text-align : center;
+padding : 61px 0;
+
+}
+.service:hover .service_hoverly {
+display : block;
+}
+.service > h2 {
+color : #515050;
+font-size : 14px;
+font-weight : 400;
+text-transform : uppercase;
+}
+.service_hoverly h2 {
+color : #515050;
+font-size : 14px;
+font-weight : 400;
+text-transform : uppercase;
+margin : 0;
+padding-bottom : 30px;
+}
+.service i {
+font-size : 50px;
+color : #03B0F0;
+position : relative;
+}
+.service_hoverly {
+
+transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	-webkit-transition: all 1s ease 0s;border :1px solid #03B0F0;
+display : none;
+padding : 25px 5px;
+position : absolute;
+top : 0;
+background : #fff;
+}
+.service_hoverly i {
+background : none 0 0 repeat scroll #fff;
+font-size : 50px;
+position : relative;
+top : -50px;
+}
