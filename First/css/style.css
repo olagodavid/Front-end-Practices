@@ -705,7 +705,7 @@ font-size : 24px;
 text-transform : none;
 }
 .btn.pricing_btn {
-background : none 0 0 repeat scroll #00aff0;
+background : `none 0 0 repeat scroll #00aff0;
 border : #666666 solid 1px;
 color : #fff;
 text-transform : uppercase;
@@ -714,4 +714,119 @@ padding : 10px 30px;
 .sngl_pricing ul {
 margin : 0;
 padding : 55px 0;
+}
+
+.sngl_pricing a {
+margin-top : 30px;
+}
+#clt_sec {
+background : #F0F0F0;
+padding : 70px 0;
+}
+.owl-item .sngl_clt a {
+text-align : left;
+width : 100%;
+display : inline-block;
+margin-left : 40px;
+}
+.owl-item .sngl_clt img {
+width : 100px;
+}
+#clt_sec .owl-controls .owl-nav {
+display : none;
+}
+#ctn_sec {
+padding : 70px 0;
+}
+#cnt_form .btn {
+background : #353638;
+padding : 10px 35px;
+}
+#cnt_form .form-control:focus {
+border : #0080FF solid 1px;
+}
+.cnt_info ul {
+margin : 0;
+padding : 0;
+border-left : 1px solid #C7C7C7;
+padding-left : 30px;
+}
+.cnt_info ul li {
+list-style : none outside none;
+padding : 15px 0;
+}
+.cnt_info ul li i {
+color : #818181;
+float : left;
+margin-top : 5px;
+}
+.cnt_info p {
+padding-left : 30px;
+}
+.map_area {
+margin-bottom : 93px;
+}
+.ft ul {
+margin : 0;
+padding : 0;
+text-align : center;
+}
+.ft ul li {
+list-style : none outside none;
+padding-right : 10px;
+display : inline;
+}
+.ft ul li a {
+border : #818181 solid 1px;
+border-radius : 50px;
+display : inline-block;
+margin : 0 auto;
+padding : 7px 11px;
+text-align : center;
+}
+.ft ul li a i {
+color : #363636;
+font-size : 15px;
+transition: all 1s ease 0s;
+-moz-transition: all 1s ease 0s;
+-webkit-transition: all 1s ease 0s
+}
+.ft ul li a i:hover {
+color : #00AFF0;transition: all 1s ease 0s;
+-moz-transition: all 1s ease 0s;
+-webkit-transition: all 1s ease 0s
+}
+.ft ul li .fa-facebook {
+padding : 3px;
+}
+#ltd_map_sec {
+background : none 0 0 repeat scroll #363636;
+text-align : center;
+}
+.map > h1 {
+color : #fff;
+font-size : 20px;
+font-weight : normal;
+text-transform : uppercase;
+}
+#ft_sec {
+padding : 70px 0;
+}
+.copy_right {
+margin : 0;
+padding : 0;
+}
+.copy_right li {
+font-size : 14px;
+font-weight : 600;
+list-style : none outside none;
+padding : 2px;
+text-align : center;
+color : #818181;
+text-transform : uppercase;
+}
+.copy_right {
+margin : 0;
+padding : 0;
+margin-top : 18px;
 }
