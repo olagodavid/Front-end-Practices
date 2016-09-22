@@ -920,3 +920,76 @@ width : 50px;
 margin : 0;
 padding : 0;
 }
+
+.sidebar ul li {
+border-bottom : 1px solid #e2e2e2;
+list-style : none outside none;
+padding : 15px 0;
+}
+.sidebar ul li a {
+color : #666666;
+font-size : 14px;
+text-transform : capitalize;transition: all 1s ease 0s;
+-moz-transition: all 1s ease 0s;
+-webkit-transition: all 1s ease 0s
+}
+.sidebar ul li a:hover{transition: all 1s ease 0s;
+-moz-transition: all 1s ease 0s;
+-webkit-transition: all 1s ease 0s;color:#00AFF0}
+.flickr li {
+border : 0 !important ;
+}
+.flickr li {
+float : left;
+padding-right : 6px;
+width : 90px;
+}
+.tag > li {
+border : none medium !important ;
+float : left;
+}
+.tag li a {
+border : #666666 solid 1px;
+padding : 10px;
+margin-right : 5px;
+}
+.sngl_blg > img {
+width : 100%;
+height : 100%;
+}
+.author_dec h3 {
+margin : 0;
+color : #333333;
+font-size : 14px;
+margin-bottom : 11px;
+}
+.author_info {
+border-bottom : 1px solid #e3e3e3;
+display : inline-block;
+padding : 22px 0;
+margin-bottom : 30px;
+}
+.author_info > img {
+float : left;
+margin-right : 35px;
+}
+.social_link {
+margin : 0;
+padding : 0;
+float : right;
+display : inline-flex;
+}
+.social_link li {
+list-style : none;
+}
+.social_link li a i {
+color : #363636;
+float : left;
+padding : 6px;
+}
+.form-control.single_cnt {
+width : 355px !important ;
+}
+.single_cnt_m {
+width : 731px !important ;
+}
