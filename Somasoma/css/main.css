@@ -224,3 +224,114 @@ hr {
 	margin: 2.4rem 0 1.5rem;
 	height: 0;
 }
+/* ------------------------------------------------------------------- 
+ * Lists - (_document-setup)  
+ * ------------------------------------------------------------------- */
+ol {
+	list-style: decimal;
+}
+ul {
+	list-style: disc;
+}
+li {
+	display: list-item;
+}
+ol, ul {
+	margin-left: 1.7rem;
+}
+ul li {
+	padding-left: .4rem;
+}
+ul ul, ul ol, ol ol, ol ul {
+	margin: .6rem 0 .6rem 1.7rem;
+}
+ul.disc li {
+	display: list-item;
+	list-style: none;
+	padding: 0 0 0 .8rem;
+	position: relative;
+}
+ul.disc li::before {
+	content: "";
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #034e4a;
+	position: absolute;
+	left: -17px;
+	top: 11px;
+	vertical-align: middle;
+}
+dt {
+	margin: 0;
+	color: #034e4a;
+}
+dd {
+	margin: 0 0 0 2rem;
+}
+
+/* ------------------------------------------------------------------- 
+ * Spacing - (_document-setup)  
+ * ------------------------------------------------------------------- */
+button, .button {
+	margin-bottom: 1.2;
+}
+fieldset {
+	margin-bottom: 1.5rem;
+}
+input,
+textarea,
+select,
+pre,
+blockquote,
+figure,
+table,
+p,
+ul,
+ol,
+dl,
+form,
+.fluid-video-wrapper,
+.ss-custom-select {
+	margin-bottom: 3rem;
+}
+
+/* ------------------------------------------------------------------- 
+ * floated image - (_document-setup)  
+ * ------------------------------------------------------------------- */
+img.pull-right {
+	margin: 1.5rem 0 0 3rem;
+}
+img.pull-left {
+	margin: 1.5rem 3rem 0 0;
+}
+
+/* ------------------------------------------------------------------- 
+ * block grids paddings
+ * ------------------------------------------------------------------- */
+.bgrid {
+	padding: 0 20px;
+}
+@media only screen and (max-width:1024px) {
+	.bgrid {
+		padding: 0 18px;
+	}
+}
+@media only screen and (max-width:768px) {
+	.bgrid {
+		padding: 0 15px;
+	}
+}
+@media only screen and (max-width:600px) {
+	.bgrid {
+		padding: 0 10px;
+	}
+}
+@media only screen and (max-width:400px) {
+	.bgrid {
+		padding: 0;
+	}
+}
+
+ 
