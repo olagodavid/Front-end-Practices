@@ -1796,3 +1796,63 @@ footer .back-to-top a:focus {
 footer .back-to-top a i {
 	margin-left: 15px;
 }
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * footer  
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width:768px) {
+	footer .footer-social-list li a {
+		padding: 4.8rem 2rem 4.8rem;
+	}
+	footer .footer-social-list li i {
+		font-size: 3.3rem;
+	}
+	footer .footer-social-list li span {
+		font-size: 1.4rem;
+	}
+	footer .footer-bottom .footer-logo {
+		width: 140px;
+	}
+}
+@media only screen and (max-width:600px) {
+	footer {
+		padding-bottom: 10.2rem;
+	}
+	footer .footer-social-list li a {
+		padding: 4.8rem 1.3rem 4.8rem;
+	}
+	footer .footer-social-list li i {
+		font-size: 3rem;
+	}
+	footer .footer-social-list li span {
+		font-size: 1.3rem;
+	}
+	footer .footer-bottom .footer-logo {
+		width: 130px;
+	}
+	footer .copyright span {
+		display: block;
+	}
+	footer .copyright span::after {
+		display: none;
+	}
+}
+@media only screen and (max-width:500px) {
+	footer .footer-social-list li a {
+		padding: 4.8rem 1.2rem 4.8rem;
+	}
+	footer .footer-social-list li span {
+		display: none;
+	}
+}
+@media only screen and (max-width:400px) {
+	footer .footer-social-list li a {
+		padding: 4.8rem 1.1rem 4.8rem;
+	}
+	footer .footer-bottom .footer-logo {
+		width: 120px;
+	}
+	footer .back-to-top a {
+		padding: 1.2rem 2.3rem 1.5rem;
+	}
+}
