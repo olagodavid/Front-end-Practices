@@ -1338,3 +1338,326 @@ header .social-links ul li a:focus {
 	width: 100%;
 	margin-bottom: 0;
 }
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * tabs
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width:768px) {
+	#info .tabs-wrap ul.tabs {
+		margin: 0 0 4.8rem 0;
+	}
+	#info .tabs-wrap ul.tabs li {
+		padding: 1.2rem 3rem;
+	}
+	#info .tabs-wrap ul.tabs li span {
+		display: none;
+	}
+	#info .tabs-wrap ul.tabs li i {
+		margin-right: 0;
+		top: .3rem;
+		font-size: 2.7rem;
+	}
+	#info .tabs-wrap .tab-entry-intro h1 {
+		font-size: 4rem;
+	}
+}
+@media only screen and (max-width:600px) {
+	#info .tabs-wrap ul.tabs {
+		margin: 0 0 3.6rem 0;
+	}
+	#info .tabs-wrap ul.tabs li i {
+		font-size: 2.4rem;
+	}
+	#info .tabs-wrap .tab-entry-intro h1 {
+		font-size: 3.8rem;
+	}
+}
+@media only screen and (max-width:500px) {
+	#info .tabs-wrap ul.tabs li {
+		padding: 1.2rem 1.5rem;
+	}
+	#info .tabs-wrap ul.tabs li i {
+		font-size: 2.1rem;
+	}
+	#info .tabs-wrap .tab-entry-intro h1 {
+		font-size: 3.5rem;
+	}
+}
+
+/* ------------------------------------------------------------------- 
+ * tab about - (_layout.css)  
+ * ------------------------------------------------------------------- */
+.about-list {
+	margin-top: 1.2rem;
+	text-align: center;
+}
+.about-list .item {
+	margin-bottom: 1.2rem;
+	padding: 0 32px;
+}
+.about-list .icon {
+	display: inline-block;
+	margin-bottom: 2.1rem;
+	color: #034e4a;
+}
+.about-list .icon i {
+	font-size: 5.4rem;
+}
+.about-list .h05 {
+	font-size: 1.7rem;
+	line-height: 1.765;
+	margin-bottom: 1.8rem;
+}
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * tab about 
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width:768px) {
+	.row .row.about-content {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	.about-list .item {
+		padding: 0 15px;
+	}
+}
+@media only screen and (max-width:600px) {
+	.about-list .item {
+		padding: 0 10px;
+	}
+}
+@media only screen and (max-width:400px) {
+	.about-list .item {
+		padding: 0;
+	}
+}
+
+/* ------------------------------------------------------------------- 
+ * tab contact - (_layout.css)  
+ * ------------------------------------------------------------------- */
+#tab-contact .form-field {
+	position: relative;
+}
+
+#tab-contact .form-field:before,
+#tab-contact .form-field:after {
+	content: "";
+	display: table;
+}
+
+#tab-contact .form-field:after {
+	clear: both;
+}
+
+#tab-contact .form-field label {
+	font-family: "roboto-bold", sans-serif;
+	font-size: 1.1rem;
+	line-height: 2.4rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	position: absolute;
+	bottom: -1.2rem;
+	right: 0;
+	padding: 0 2rem;
+	margin: 0;
+	color: #FFFFFF;
+	background: #034e4a;
+}
+
+#tab-contact .form-field label::after {
+	position: absolute;
+	left: -5px;
+	top: 50%;
+	margin-top: -6px;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-right: 5px solid #034e4a;
+	content: "";
+}
+
+#tab-contact #message-warning,
+#tab-contact #message-success {
+	display: none;
+	background: #dedede;
+	border-radius: 3px;
+	padding: 3rem;
+	margin-bottom: 3.6rem;
+	width: 100%;
+	text-align: left;
+	box-shadow: 0 1px 3px rgba(17, 17, 17, 0.1);
+}
+
+#tab-contact #message-warning {
+	color: #fa0003;
+}
+
+#tab-contact #message-success {
+	color: #034e4a;
+}
+
+#tab-contact #message-warning i,
+#tab-contact #message-success i {
+	margin-right: 10px;
+}
+
+/* form loader */
+#submit-loader {
+	display: none;
+	position: relative;
+	left: 0;
+	top: 1.8rem;
+	width: 100%;
+	text-align: center;
+}
+
+#submit-loader .text-loader {
+	display: none;
+	font-family: "roboto-black", sans-serif;
+	color: #034e4a;
+	letter-spacing: .3rem;
+	text-transform: uppercase;
+}
+
+.oldie #submit-loader .s-loader {
+	display: none;
+}
+
+.oldie #submit-loader .text-loader {
+	display: block;
+}
+
+/* ------------------------------------------------------------------- 
+ * loader animation - (_layout.scss) 
+ * ------------------------------------------------------------------- */
+.s-loader {
+	margin: 1.2rem auto 3rem;
+	width: 70px;
+	text-align: center;
+	-webkit-transform: translateX(0.45rem);
+	-ms-transform: translateX(0.45rem);
+	transform: translateX(0.45rem);
+}
+.s-loader > div {
+	width: 1rem;
+	height: 1rem;
+	background-color: #034e4a;
+	border-radius: 100%;
+	display: inline-block;
+	margin-right: .9rem;
+	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+.s-loader .bounce1 {
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s;
+}
+.s-loader .bounce2 {
+	-webkit-animation-delay: -0.16s;
+	animation-delay: -0.16s;
+}
+@-webkit-keyframes sk-bouncedelay {
+	0%, 80%, 100% {
+		-webkit-transform: scale(0);
+		-ms-transform: scale(0);
+		transform: scale(0);
+	}
+	40% {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+}
+@keyframes sk-bouncedelay {
+	0%, 80%, 100% {
+		-webkit-transform: scale(0);
+		-ms-transform: scale(0);
+		transform: scale(0);
+	}
+	40% {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+/* ------------------------------------------------------------------- 
+ * tab subscribe - (_layout.css)  
+ * ------------------------------------------------------------------- */
+#tab-subscribe .form-field input {
+	text-align: center;
+}
+#tab-subscribe label {
+	color: #000000;
+	font-size: 1.7rem;
+}
+
+
+/* ===================================================================
+ * 11. cta - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+#cta {
+	background: #034e4a;
+	padding-top: 9rem;
+	padding-bottom: 7.8rem;
+	text-align: center;
+}
+#cta p.lead {
+	color: rgba(255, 255, 255, 0.5);
+}
+#cta .button {
+	background: #02312e;
+	color: #FFFFFF;
+}
+#cta .button:hover {
+	background: #151515;
+}
+.cta-wrap {
+	max-width: 670px;
+}
+.cta-thumb {
+	display: inline-block;
+	margin-bottom: 1.2rem;
+}
+.cta-thumb img {
+	height: 7.8rem;
+	width: 7.8rem;
+	border-radius: 50%;
+}
+.cta-content h2 {
+	position: relative;
+	padding-bottom: 2.1rem;
+	color: #FFFFFF;
+}
+.cta-content h2::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 80px;
+	background: rgba(255, 255, 255, 0.2);
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin-left: -40px;
+}
+.cta-content h2 a, .cta-content h2 a:visited {
+	color: #FFFFFF;
+}
+.cta-content span {
+	color: #FFFFFF;
+}
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * cta  
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width:650px) {
+	.cta-wrap {
+		max-width: 650px;
+	}
+	.cta-wrap h2 {
+		font-size: 2.7rem;
+	}
+}
