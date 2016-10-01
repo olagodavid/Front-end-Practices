@@ -1661,3 +1661,138 @@ header .social-links ul li a:focus {
 		font-size: 2.7rem;
 	}
 }
+
+/* ===================================================================
+ * 12. footer - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+footer {
+	text-align: center;
+	padding-bottom: 12rem;
+	position: relative;
+}
+
+footer .social-wrap {
+	background: #151515;
+	margin-bottom: 4.8rem;
+}
+
+footer .footer-social-list {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+}
+
+footer .footer-social-list a,
+footer .footer-social-list a:visited {
+	color: #FFFFFF;
+}
+
+footer .footer-social-list a:hover,
+footer .footer-social-list a:focus {
+	color: #057f78;
+}
+
+footer .footer-social-list li {
+	display: inline-block;
+	padding: 0;
+}
+
+footer .footer-social-list li a {
+	display: block;
+	padding: 4.8rem 3rem 4.8rem;
+}
+
+footer .footer-social-list li i {
+	display: block;
+	font-size: 3.6rem;
+}
+
+footer .footer-social-list li span {
+	display: block;
+	margin-top: .9rem;
+	font-size: 1.5rem;
+}
+
+footer .footer-bottom {
+	position: relative;
+}
+
+footer .footer-bottom a,
+footer .footer-bottom a:visited {
+	color: #000000;
+}
+
+footer .footer-bottom a:hover,
+footer .footer-bottom a:focus {
+	color: #034e4a;
+}
+
+footer .footer-bottom .footer-logo {
+	display: inline-block;
+	width: 150px;
+}
+
+footer .copyright {
+	display: block;
+	position: relative;
+	padding-top: 3.6rem;
+	margin-top: 1.5rem;
+}
+
+footer .copyright::before {
+	content: "";
+	width: 120px;
+	height: 3px;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -60px;
+	background: rgba(17, 17, 17, 0.3);
+}
+
+footer .copyright span {
+	display: inline-block;
+}
+
+footer .copyright span::after {
+	content: "";
+	display: inline-block;
+	padding: 0 1rem 0 1.2rem;
+	color: rgba(17, 17, 17, 0.5);
+}
+
+footer .copyright span:last-child::after {
+	display: none;
+}
+
+footer .back-to-top {
+	font-family: "roboto-black", sans-serif;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	color: #FFFFFF;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+footer .back-to-top a {
+	display: block;
+	background: #034e4a;
+	padding: 1.2rem 3rem 1.5rem;
+	color: #FFFFFF;
+}
+
+footer .back-to-top a:hover,
+footer .back-to-top a:focus {
+	background: #151515;
+}
+
+footer .back-to-top a i {
+	margin-left: 15px;
+}
