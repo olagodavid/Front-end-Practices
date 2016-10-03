@@ -17,3 +17,8 @@
 	text-align: center;
 	margin: 0 auto;
 }
+/*header place holder*/
+.header-fixed-placeholder{
+	height: 80px;
+	display: none;
+}
