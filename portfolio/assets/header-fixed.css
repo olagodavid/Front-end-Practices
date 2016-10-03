@@ -60,3 +60,9 @@
 .header-fixed .header-limiter nav a:hover{
 	opacity: 1;
 }
+
+.header-fixed .header-limiter nav a.selected {
+	color: #608bd2;
+	pointer-events: none;
+	opacity: 1;
+}
