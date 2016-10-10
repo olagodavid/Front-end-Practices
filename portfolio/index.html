@@ -31,10 +31,9 @@
 		<h1><a href="#">David<span>Olago</span></a></h1>
 
 		<nav>
-			<a href="#" class="selected">Home</a>
-			<a href="#">Folio</a>
+			<a href="#" class="selected">Services</a>
+			<a href="#">Portfolio</a>
 			<a href="#">About</a>
-			<a href="#"></a>
 			<a href="#">Contact</a>
 		</nav>
 
@@ -42,80 +41,5 @@
 
 </header>
 
-<div class="header-fixed-placeholder"></div>
-
- <!--start-->
-    <div id="ninja-slider">
-        <div class="slider-inner">
-            <ul>
-                <li>
-                    <a class="ns-img" href="img/1.jpg"></a>
-                    <div class="caption">I BUILD RESPONSIVE</div>
-                </li>
-                <li>
-                    <a class="ns-img" href="img/2.jpg"></a>
-                    <div class="caption">TOUCH·ENABLED</div>
-                </li>
-                <li>
-                    <a class="ns-img" href="img/3.jpg"></a>
-                    <div class="caption">VIDEO·AUDIO</div>
-                </li>
-                <li>
-                    <a class="ns-img" href="img/4.jpg"></a>
-                    <div class="caption">NON·JQUERY</div>
-                </li>
-                <li>
-                    <a class="ns-img" href="img/5.jpg"></a>
-                    <div class="caption">MOBILE·FRIENDLY<br>WEBSITES</div>
-                </li>
-            </ul>
-            <div class="navsWrapper">
-                <div id="ninja-slider-prev"></div>
-                <div id="ninja-slider-next"></div>
-            </div>
-        </div>
-    </div>
-    <!--end-->
-
-    <header class="codrops-header">
-				<h1>Some of my <span>Collaborated projects <a href="http://christmasexperiments.com/">The Christmas Experiments</a></span></h1>
-				<nav class="codrops-demos">
-					<a href="index.html">Demo 1</a>
-					<a href="index2.html">Demo 2</a>
-					<a class="current-demo" href="index3.html">Demo 3</a>
-				</nav>
-			</header>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script>
-
-	$(document).ready(function(){
-
-		var showHeaderAt = 150;
-
-		var win = $(window),
-				body = $('body');
-
-		// Show the fixed header only on larger screen devices
-
-		if(win.width() > 600){
-
-			// When we scroll more than 150px down, we set the
-			// "fixed" class on the body element.
-
-			win.on('scroll', function(e){
-
-				if(win.scrollTop() > showHeaderAt) {
-					body.addClass('fixed');
-				}
-				else {
-					body.removeClass('fixed');
-				}
-			});
-
-		}
-
-	});
-
-</script>
-
+</body>
+</html>
