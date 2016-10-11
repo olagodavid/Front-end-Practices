@@ -77,3 +77,22 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     padding: 20px 40px;
 }
+
+// Custom Navigation Bar
+
+.navbar-custom {
+    background-color: $gray-darker;
+    border-color: transparent;
+    .navbar-brand {
+        color: $theme-primary;
+        @include script-font;
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            color: darken($theme-primary, 10%);
+        }
+    }
+    .navbar-collapse {
+        border-color: fade-out(white, .02);
+    }
