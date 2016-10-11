@@ -60,3 +60,20 @@ h1, h2, h3, h4, h5, h6 {
 .bg-darkest-gray {
     background-color: $gray-darker;
 }
+
+// Restyled Primary Buttons
+
+.btn-primary {
+    @include button-variant(white, $theme-primary, $theme-primary);
+    @include heading-font;
+    font-weight: 700;
+}
+
+.btn-xl {
+    @include button-variant(white, $theme-primary, $theme-primary);
+    @include heading-font;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+}
