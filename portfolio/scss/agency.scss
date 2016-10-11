@@ -164,3 +164,31 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
 }
+
+header {
+    background-image: url('../img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    @include background-cover;
+    text-align: center;
+    color: white;
+    .intro-text {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        .intro-lead-in {
+            @include serif-font;
+            font-style: italic;
+            font-size: 22px;
+            line-height: 22px;
+            margin-bottom: 25px;
+        }
+        .intro-heading {
+            @include heading-font;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 50px;
+            margin-bottom: 25px;
+        }
+    }
+}
